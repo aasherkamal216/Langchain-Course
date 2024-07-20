@@ -126,3 +126,4 @@ celerybeat.pid
 .venv
 env/
 venv/
+Langchain Practice\chroma_db
