@@ -126,5 +126,5 @@ celerybeat.pid
 .venv
 env/
 venv/
-Langchain Practice\chroma_db
-Langchain Practice\faiss_index
+Langchain Practice/chroma_db
+Langchain Practice/faiss_index
