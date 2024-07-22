@@ -17,3 +17,4 @@ langchain-huggingface
 langchain-chroma
 chromadb
 faiss-cpu
+langchain-qdrant
