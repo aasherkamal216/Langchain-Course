@@ -18,3 +18,9 @@ langchain-chroma
 chromadb
 faiss-cpu
 langchain-qdrant
+qrant_client
+streamlit
+langchain-groq
+fastapi
+uvicorn
+langserve
