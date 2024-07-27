@@ -19,7 +19,7 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 # Ollama Model (local)
-llm = ChatOllama(model="gemma:2b")
+llm = ChatOllama(model="qwen2:1.5b")
 
 # Chain
 chain = prompt | llm | StrOutputParser()
@@ -27,8 +27,8 @@ chain = prompt | llm | StrOutputParser()
 # streamlit code
 st.set_page_config(page_icon=":mag:")
 st.title("Ollama Chat Model")
-question = st.text_input("Ask me a question...")
+question = st.text_input("Ask me a question:")
 
 if question:
-    response = chain.invoke({"question": question})
-    st.write(response)
+    # using llm streaming feature for interactive output
+    st.write_stream(chain.stream({"question": question}))
