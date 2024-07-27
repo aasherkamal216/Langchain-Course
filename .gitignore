@@ -126,5 +126,6 @@ celerybeat.pid
 .venv
 env/
 venv/
+temp.pdf
 Langchain Practice/chroma_db
 Langchain Practice/faiss_index
