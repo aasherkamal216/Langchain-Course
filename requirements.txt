@@ -24,3 +24,7 @@ langchain-groq
 fastapi
 uvicorn
 langserve
+arxiv
+wikipedia
+langchainhub
+duckduckgo-search
