@@ -28,3 +28,4 @@ arxiv
 wikipedia
 langchainhub
 duckduckgo-search
+psycopg2
