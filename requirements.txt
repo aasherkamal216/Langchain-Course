@@ -29,3 +29,6 @@ wikipedia
 langchainhub
 duckduckgo-search
 psycopg2
+youtube_transcript_api
+unstructured
+pytube
