@@ -34,3 +34,8 @@ unstructured
 pytube
 numexpr
 huggingface_hub
+langchain_nvidia_ai_endpoints
+crewai
+crewai-tools
+yt_dlp==2023.11.14
+youtube-transcript-api==0.6.1
