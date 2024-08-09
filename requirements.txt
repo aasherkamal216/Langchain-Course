@@ -42,3 +42,4 @@ youtube-transcript-api==0.6.1
 pinecone-client
 pinecone-text
 pinecone-notebooks
+lamini
